@@ -10,3 +10,15 @@
 // 2️⃣ Inside the loop, check if the number is divisible by both 3 and 5 first.
 // 3️⃣ If it's not, check if it's divisible by only 3 or only 5.
 // 4️⃣ Use console.log() to print the correct output for each number.
+
+for (let i = 1; i <= 20; i++) {
+	if (i % 3 === 0 && i % 5 === 0) {
+		console.log("FizzBuzz");
+	} else if (i % 3 === 0) {
+		console.log("Fizz");
+	} else if (i % 5 === 0) {
+		console.log("Buzz");
+	} else {
+		console.log(i);
+	}
+}
